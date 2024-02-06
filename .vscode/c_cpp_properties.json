@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/davidlunde/Library/Arduino15/libraries/Servo/src/",
+                "/Users/davidlunde/Library/Arduino15/packages/arduino/tools/**"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "/Users/davidlunde/Library/Frameworks/Kernel.framework/Versions/A/Headers",
+                    "/Applications/Arduino.app/Contents/Java/"
+                ]
+            },
+            "forcedInclude": [
+                "/Users/davidlunde/Library/Arduino15/packages/arduino/hardware/avr/1.8.6/cores/arduino/Arduino.h"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-gcc-x64"
+        }
+    ],
+    "version": 4
+}
