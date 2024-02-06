@@ -1,3 +1,4 @@
+// Arduino is trash
 #include <Arduino.h>
 #include <Servo.h> 
  
