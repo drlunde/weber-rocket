@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'Servo Sweep/Servo_Sweep.ino.hex'
+elf = 'Servo Sweep/Servo_Sweep.ino.elf'
