@@ -3,6 +3,7 @@
 Servo servo1;
 Servo servo2;
 
+bool run = true;
 int pos = 0;
 
 void setup() {
@@ -13,15 +14,17 @@ void setup() {
 }
 
 void loop() {
-  for (int angle = 0; angle <= 180; angle++) {
-    servo1.write(angle);
-    servo2.write(angle);
-    delay(15); // Adjust the delay time as needed
-  }
+  while (run) {
+    for (int pos = 0; pos <= 180; pos++) {
+      servo1.write(pos);
+      servo2.write(pos);
+      delay(15); 
+    }
 
-  for (int angle = 180; angle >= 0; angle--) {
-    servo1.write(angle);
-    servo2.write(angle);
-    delay(15); // Adjust the delay time as needed
+    for (int pos = 180; pos >= 0; pos--) {
+      servo1.write(pos);
+      servo2.write(pos);
+      delay(15); 
+    }
   }
 }
