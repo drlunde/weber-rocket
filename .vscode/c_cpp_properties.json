@@ -3,13 +3,11 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/Users/davidlunde/Library/Arduino15",
-                "/Users/davidlunde/Library/"
+                
             ],
             "defines": [],
             "macFrameworkPath": [
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            
             ],
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c17",
