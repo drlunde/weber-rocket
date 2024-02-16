@@ -6,7 +6,8 @@
                 "${workspaceFolder}/**",
                 "/usr/local/include",
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks",
+                "/Users/davidlunde/Library"
             ],
             "defines": [],
             "macFrameworkPath": [
@@ -14,7 +15,7 @@
             ],
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cppStandard": "c++23",
             "intelliSenseMode": "macos-clang-arm64"
         }
     ],
