@@ -1,7 +1,0 @@
-{
-    "configuration": "cpu=atmega2560",
-    "board": "arduino:avr:mega",
-    "sketch": "Servo Sweep/Servo_Sweep.ino",
-    "output": "build",
-    "port": "/dev/tty.usbmodem101"
-}
